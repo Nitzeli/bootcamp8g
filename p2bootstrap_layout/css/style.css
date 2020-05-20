@@ -4,6 +4,7 @@
 
 section {
   padding: 15px;
+  background-color: #c7c7c7;
 }
 
 .post.imagen img {
@@ -14,9 +15,12 @@ article {
   background-color: pink;
   -webkit-box-shadow: 2px 2px 4px #ecebeb;
           box-shadow: 2px 2px 4px #ecebeb;
+  border-radius: 10px;
+  margin: 20px;
 }
 
 aside {
   background-color: burlywood;
+  padding: 10px;
 }
 /*# sourceMappingURL=style.css.map */

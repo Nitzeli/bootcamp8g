@@ -3,6 +3,7 @@
 }
 section{
     padding: 15px;
+    background-color: grayscale($color: #c7c6c6);
 }
 
 .post.imagen img{
@@ -12,7 +13,10 @@ section{
 article{
     background-color: pink;
     box-shadow: 2px 2px 4px rgb(236, 235, 235);
+    border-radius: 10px;
+    margin: 20px;
 }
 aside{
     background-color: burlywood;
+    padding: 10px;
 }
