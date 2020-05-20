@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head>  <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S1 HTML</title>
-
+    <link rel="stylesheet" href="p1html_css/style.css" >
 </head>
+
 <body>
    
-    <div id= container>
+    <div id= container class="black-rectangle" style= "background-color: box-sizing: border-box; padding;">
     <header><img src="https://kodemia.mx/static/img/logos/isotipo-negro.png" height="42" width="42">Kodemia</header>
-    <h1>Hello Koders</a></h1>
+    <h1 id="page-heading">Hello Koders</a></h1>
 
 </div>
 
@@ -30,16 +30,27 @@
                 <li>Programación web y móvil</li>
                 <li>Formación en diseño UI/UX</li>
             </ol>
+            <button class="btn-success" >Guardar</button>
     </section>
     <aside>
         <h4><i>Lista Items</i></h4>
-        <ul>
+        <ul id="first list">
+            <li id="first-item"> item</li>
             <li> item</li>
             <li> item</li>
             <li> item</li>
             <li> item</li>
-            <li> item</li>
+
+            <ul>
+                <li id="first-item"> item</li>
+                <li> item</li>
+                <li> item</li>
+                <li> item</li>
+                <li> item</li>
+            </ul>
         </ul>
+
+        <button class="btn-success">Guardar</button>
 
         <form>
             <input type="text">

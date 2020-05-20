@@ -1,0 +1,22 @@
+* {
+  padding: 15px;
+}
+
+section {
+  padding: 15px;
+}
+
+.post.imagen img {
+  width: 100%;
+}
+
+article {
+  background-color: pink;
+  -webkit-box-shadow: 2px 2px 4px #ecebeb;
+          box-shadow: 2px 2px 4px #ecebeb;
+}
+
+aside {
+  background-color: burlywood;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,42 @@
+.square{
+    width: 100px;
+    height: 100px;
+    transition: all 1s ease;
+}
+.square.black-square{
+    background: black;
+}
+.square.red-square{
+    background: red;
+}
+.square.pink-square{
+    background: pink;
+}
+.square.purple-square{
+    background: purple;
+}
+
+@media only screen and (min-width : 520px){
+    .square.black-square{
+        background: yellow;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (min-width : 768px){
+    .square.red-square{
+        background: orange;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width : 1024px){
+    .square.pink-square{
+        background: green;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

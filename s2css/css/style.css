@@ -1,0 +1,48 @@
+*{
+    color: peru;
+}
+p{
+    text-transform: uppercase;
+}
+#page-heading{
+
+    text-decoration:underline;
+    font-style:italic;
+
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px dotted greenyellow;
+    border: radius 5px;
+    box-shadow: 3px 3x 5px #ffffff;
+    color: yellow;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+#first-list li {
+    border: 1px solid blue ;
+        list-style: none;
+        font-weight: bold;
+        margin-bottom: 11px;
+}
+    ul{
+        border: 1px solid rgb(87, 11, 228);
+        box-shadow: 2px 1px 5px grey;
+        text-decoration: solid;
+        padding: 15px;
+    }
+    li{
+        border: 1px solid blue ;
+        list-style: none;
+        font-weight: bold;
+        margin-bottom: 15px;
+        }
+        #first-item{
+            text-transform: uppercase;
+            color: rgb(240, 124, 211);
+        }
+       
