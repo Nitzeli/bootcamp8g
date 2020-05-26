@@ -10,6 +10,7 @@
 
 </head>
 <body>
+  <div class="Encabezado"></div>
     <header class="encabezado bg-primary text-white p-3px">
       <div class= "container">
         <h1 class= "page header col-12 justify-content-center text-center "> Do you like music?</h1>
@@ -30,9 +31,9 @@
       </div>
     </header>
     <div class="container-principal">
-      <div class="row">
-    <section class="main container col-md-9">
-      <div class="posts col-md-9">
+      <div class="row 3">
+    <section class="main container col-lg-8">
+      <div class="posts">
         <article class="post clearfix border-black"> 
           <a href="" class="imagen pull left">
           <img src="https://cdn.mos.cms.futurecdn.net/j46i4UUoC7aeBcpmKiQnv3-650-80.jpg" class="img-fluid" alt="Responsive image">
@@ -67,7 +68,7 @@
       </div>
     </section>
 
-    <aside class="col-md-3 justify-content-center">
+    <aside class="col-lg-4 justify-content-center">
       <h3>More Information</h3>
       </div>
     </aside>
@@ -81,6 +82,18 @@
             <p>Nitzeli Villa</p>
           </div>
     </footer>
+
+    <form class="form-inline">
+      <div class="form-group mb-2">
+        <label for="staticEmail2" class="sr-only">Email</label>
+        <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="inputPassword2" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+    </form>
 
     <script
     src="https://code.jquery.com/jquery-3.5.1.min.js"
