@@ -20,10 +20,16 @@ if (base===height){
 
 /*2.- Determinar una variable (numeroDeLados) e indicar el nombre de la figura geométrica que tiene esa cantidad de lados,si numero de lados es mayor que 5, poner un mensaje que diga "tu figura tiene muchos lados*/
 
-var numberSides = 5
-
-if (numberSides === 4){
-    console.log ("figure is an square or rectagle")
-}else if (numberSides >= 5){
+var numberSides = 7
+if(numberSides === 3){
+    console.log ("figure is a triangule")
+}
+else if (numberSides === 4){
+    console.log ("figure is a squadrilaterale")
+}else if (numberSides === 5){
+    console.log ("the figure is a pentagon")
+}else if (numberSides > 5){
     console.log ("the figure have a lot of sides")
+}else {
+    console.log ("dont exist a figure with two sides")
 }
