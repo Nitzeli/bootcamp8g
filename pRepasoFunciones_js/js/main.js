@@ -46,30 +46,29 @@ if(userNumber === Number){
 }
 }
 
-var numbersArray = numberString.split(" ")
-for(let j=0; j<numbersArray.length; j++){
-    let character = numbersArray[j]
-   
+const calculatePrimeFactor = ( number ) => {
+  let factors = []
+  let residue = number
+  if (typeof number !== "number"){
+      alert ("Solo puedes ingresar numeros") 
+      return 
+  } else if ( number === 1){
+      factors.push (residue)
+  }
+  if (number)
+  for ( residue ; residue != 1; ) {
+    let prime = findDividerNumber(residue)
+    factors.push(prime)
+    residue = residue / prime
+  }
+return factors
 }
-
-
-const calculatePrimeFactor = ( number) => {
-    let factors = []
-    let residue = number
-    for ( residue ; residue != 1; ) {
-      let prime = findDividerNumber(residue)
-      factors.push(prime)
-      residue = residue / prime
-    }
-  return factors
-  }
-  const findDividerNumber = ( dividendo ) => {
-   let primeNumbers = [ 2, 3, 5, 7, 11, 13 ]
-    for ( let i = 0; i < primeNumbers.length; i++ ){
-      if( dividendo % primeNumbers[i] === 0  ){
-        return primeNumbers[i]
-      }
+const findDividerNumber = ( dividendo ) => {
+ let primeNumbers = [ 2, 3, 5, 7, 11, 13 ]
+  for ( let i = 0; i < primeNumbers.length; i++ ){
+    if( dividendo % primeNumbers[i] === 0  ){
+      return primeNumbers[i]
     }
   }
-   
+}
 
