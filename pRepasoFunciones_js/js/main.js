@@ -46,16 +46,16 @@ if(userNumber === Number){
 }
 }
 
-const calculatePrimeFactor = ( number ) => {
+const calculatePrimeFactor = ( userNumber ) => {
   let factors = []
-  let residue = number
-  if (typeof number !== "number"){
+  let residue = valueNumber
+  if (typeof valueNumber !== "number"){
       alert ("Solo puedes ingresar numeros") 
       return 
-  } else if ( number === 1){
+  } else if ( userNumber === 1){
       factors.push (residue)
   }
-  if (number)
+  if (userNumber)
   for ( residue ; residue != 1; ) {
     let prime = findDividerNumber(residue)
     factors.push(prime)
