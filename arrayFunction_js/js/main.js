@@ -46,7 +46,7 @@ con base en dicho string, realizar lo siguiente:
     output => "La frase usa en promedio ${average} caracteres por palabra"*/
 
 
-    var originalPhrase = "La mejor forma de predecir el futuro es creándolo"
+    /*var originalPhrase = "La mejor forma de predecir el futuro es creándolo"
     var arrayPhrase = originalPhrase.split (" ")
     var arrayLenght = arrayPhrase.length
 
@@ -59,3 +59,50 @@ con base en dicho string, realizar lo siguiente:
         let avarage = totalLetter / totalWords
         console.log ("la frase en promedio"+" "+avarage)
     }
+    */
+
+
+    /*esta funcion sirve para crear un objeto*/
+/*const createUserObject = (name, age,height ) => {
+    let nombre = 
+    let edad = parseInt(prompt("Ingresa la edad de tu usuario"))
+    let altura = parseInt(prompt("Ingresa la altura de tu usuario"))
+    let userObject = {}
+    userObject.name = nombre
+    userObject.age = edad
+    userObject.height = altura
+    console.log(userObject)
+}
+*/
+
+var dataArray = [
+    [
+        "Ruben",
+        25,
+        1.70
+    ],[
+        "Yorch",
+        23,
+        1.80
+    ],[
+        "Juan",
+        22,
+        1.82
+    ]
+]
+const createUserObject = (array) => {
+    let name = array[0]
+    let age = array[1]
+    let height = array[2]
+    let userObject = {}
+    userObject.name = name
+    userObject.age = age
+    userObject.height = height
+    console.log(userObject)
+
+}
+
+let arrayNew = dataArray.map(user => createUserObject(user))
+
+
+
