@@ -92,15 +92,18 @@ cars = [
     }
 ]
 
-var year = prompt("Write a year")
+/*const filtersCars= ()=>{
+    var year = prompt("Write a year")
 
 const carsFilteredbyYear= cars.filter(car => {
-    return car.year > year
+    return car.year >= year
 })
 
 console.log (carsFilteredbyYear)
 
-
 var autos = carsFilteredbyYear.map(function(car,index){
-    console.log (index + " " + "fabricante del auto" +" "+ car.maker + " "+ "nombre del auto" + " "+ car.model + " " + "del año" + " "+ car.year+" "+ "con"+ " " + car.hp + " "+ "caballos de fuerza")
+    console.log (index + " " + "fabricante del auto" +" "+ car.maker + " "+ "nombre del auto" + " "+ car.model + " " + "del año" + " "+ car.year+" "+ "con"+ " " + car.hp + " "+ "caballos de")
 })
+}
+
+filtersCars()*/
