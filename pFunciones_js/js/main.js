@@ -6,7 +6,7 @@
 
     var operationCuadrado= prompt("perimeter or area")
     var side= (prompt("please insert data", 5));
-    const operationFigure()=>{
+    const operationFigure = ()=>{
         var calculateSquareRecPerimeter= (side+side+side+side);
         var calculateSquareA= (side*side)
         var calculateRectanguleArea= (side*side/2)

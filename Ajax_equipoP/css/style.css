@@ -5,6 +5,9 @@ body{
     background-color: rgb(255, 255, 255);
     color: black;
 }
+.card{
+    padding: 5px;
+}
 h1{
     text-shadow: 1px 1px 1px black;
 }
