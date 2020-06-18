@@ -1,1 +1,9 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  color: crimson;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  color: darksalmon;
+}
+/*# sourceMappingURL=style.css.map */
